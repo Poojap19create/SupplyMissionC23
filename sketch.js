@@ -94,11 +94,7 @@ function keyPressed() {
     translation={x:20,y:0}
     Matter.Body.translate(packageBody, translation)
   }
-  else if (keyCode === DOWN_ARROW) {
-    Matter.Body.setStatic(packageBody,false);
-    
-  }
-}
+  
 
 
 
